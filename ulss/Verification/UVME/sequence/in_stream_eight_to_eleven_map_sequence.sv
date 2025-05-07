@@ -432,15 +432,7 @@
       
      #20;
 
-     // Assert reset (active low)
-  /* `uvm_do_with(tx, {
-      tx.rate_limiter_16to4_rstn == 1'b0;
-      tx.sch_reg_wr_en == 1'b0;
-    });
-    
-    // Allow some cycles for reset
-    //repeat(1)
-    #1;*/
+ 
 
       
       // Stream 11 packet
